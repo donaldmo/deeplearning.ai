@@ -43,4 +43,11 @@ large language models.
 - Hallucination
 - Makes statements that sound plausible but are not true.
 
+# Iterative Prompt Development
+![Iterative Prompt Development](iterative-prompt-development.png)
 
+**Iterative Process:**
+- Try Something
+- Analyze where the result does not give what you want.
+- Clarify instruction, give more time to think.
+- Refine prompts with a batch of examples.
