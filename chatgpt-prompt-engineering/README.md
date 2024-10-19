@@ -51,3 +51,9 @@ large language models.
 - Analyze where the result does not give what you want.
 - Clarify instruction, give more time to think.
 - Refine prompts with a batch of examples.
+
+**Summarising:**
+- Summarize with a word/sentence/character limit
+- Summarize with a focus: e.g on shipping and delivery
+- Try "extract" instead of "summarize"
+- Summarize multiple items: e.g product reviews

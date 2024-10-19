@@ -67,17 +67,17 @@ if __name__ == "__main__":
     # 3. Try "extract" instead of "summarize"
     # ___________________________________________________
 
-    # prompt = f"""
-    # Your task is to extract relevant information from \ 
-    # a product review from an ecommerce site to give \
-    # feedback to the Shipping department. 
+    prompt = f"""
+    Your task is to extract relevant information from \ 
+    a product review from an ecommerce site to give \
+    feedback to the Shipping department. 
 
-    # From the review below, delimited by triple quotes \
-    # extract the information relevant to shipping and \ 
-    # delivery. Limit to 30 words. 
+    From the review below, delimited by triple quotes \
+    extract the information relevant to shipping and \ 
+    delivery. Limit to 30 words. 
 
-    # Review: ```{prod_review}```
-    # """
+    Review: ```{prod_review}```
+    """
 
     response = get_completion(prompt)
     print(response)
