@@ -3,7 +3,10 @@ Guidelines for Prompting
 
 In this lesson you'll proactice two pompting principles and
 thier realated tactics in order to write effective prompts for
-large language models
+large language models.
+
+Principle 1:
+Write a clear and specific instructions.
 """
 
 import os
@@ -132,7 +135,8 @@ def tactic_3_text_2():
     response = get_completion(prompt)
     return response
 
-def tactic_4(): 
+
+def tactic_4():
     """Few-shot prompting"""
     prompt = f"""
     Your task is to answer in a consistent style.
@@ -151,17 +155,17 @@ def tactic_4():
 
 
 if __name__ == "__main__":
-    ### Tactic 3 - text 1: Ask the model to check whether conditions are satisfied
+    # """Tactic 3.1: Ask the model to check whether conditions are satisfied"""
     # tactic_3_text = tactic_3_text_1()
     # print("Completion for Text 1:")
     # print(tactic_3_text)
 
-    ### Tactic 3 - text 2: Ask the model to check whether conditions are satisfied
+    # """Tactic 3.2: Ask the model to check whether conditions are satisfied"""
     # text_2 = tactic_3_text_2()
     # print("Completion for Text 2:")
     # print(text_2)
-    
-    ### Tactic 4: 'Few-shot' prompting
+
+    # """Tactic 4: 'Few-shot' prompting"""
     print("Completion for: 'Few-shot' prompting:")
     tactic_4_text = tactic_4()
     print(tactic_4_text)
