@@ -29,4 +29,12 @@ large language models.
 **Tactic 4: Few-shot prompting
 - Check assumptions required to do the task.
 
-## Principle 2: 
+## Principle 2: Give the model time to think
+
+**Tactic 1: Specify the steps to complete a task**
+- Step 1: ...
+- Step 2: ...
+- ... 
+- Step N: ...
+
+**Tactic 2: Instruct the model to work out it's own solution before rushing to a conclution.**

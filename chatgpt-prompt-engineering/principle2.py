@@ -194,12 +194,14 @@ def tactic_2_2():
 
 
 if __name__ == "__main__":
-    """Tactic 1: Specify the steps required to complete a task."""
+    """Tactic 1: Specify the steps required to complete a task.
+    """
     # tactic_1_res = tactic_1()
     # print("Completion for prompt 1:")
     # print(tactic_1_res)
 
-    """Tacktic 1.2: Ask for output in a specific format."""
+    """Tacktic 1.2: Ask for output in a specific format.
+    """
     # response = tactic_1_2()
     # print("\n Completion for prompt 2:")
     # print(response)
@@ -212,8 +214,16 @@ if __name__ == "__main__":
     # print("\n Completion for Tactic 2:")
     # print(response)
 
-    """Tactic 2.2: Instruct the model to work out its own solution before rushing to a conclusion"""
-    response = tactic_2_2()
-    print(response)
+    # """Tactic 2.2: Instruct the model to work out its own solution before rushing to a conclusion"""
+    # response = tactic_2_2()
+    # print(response)
+
+    """Model Limitations: Hallucinations
+    """
+    # prompt = """Boie is a real company, the product name is not real.
+    # Tell me about AeroGlide UltraSlim Smart Toothbrush by Boie
+    # """
+    # response = get_completion(prompt)
+    # print(response)
 
 
