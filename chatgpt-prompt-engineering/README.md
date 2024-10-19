@@ -38,3 +38,9 @@ large language models.
 - Step N: ...
 
 **Tactic 2: Instruct the model to work out it's own solution before rushing to a conclution.**
+
+**Model Limitations**
+- Hallucination
+- Makes statements that sound plausible but are not true.
+
+
