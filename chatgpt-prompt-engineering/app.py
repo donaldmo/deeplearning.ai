@@ -51,5 +51,19 @@ def tactic_1():
     return response
 
 
+def tectic_2():
+    '''Ask for a structured output'''
+
+    prompt = f"""
+    Generate a list of three made-up book titles along \ 
+    with their authors and genres.
+    provide them in JSON format with the following keys:
+    book_title, title, author, genre.
+    """
+
+    response = get_completion(prompt)
+    return response
+
+
 if __name__ == "__main__":
-    print(tactic_1())
+    print(tectic_2())
